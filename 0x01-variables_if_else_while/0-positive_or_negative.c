@@ -5,11 +5,6 @@
  * main - Determines if a number is positive, negative or zero
  * Return: Always 0 (success).
  */
-
-/* 
- * This program demonstrates the usage of the main function
- * It performs XYZ operation and returns 0 on success.
-*/
 int main(void)
 {
 	int n;
