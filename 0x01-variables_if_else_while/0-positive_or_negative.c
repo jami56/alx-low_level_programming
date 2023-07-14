@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * main - Determines if a number is positive, negative or zero
- * Return: Always 0 (success).
+/**
+ * main - entry point
+ * Description: false or true validation
+ * Return: 0 (success)
  */
 int main(void)
 {
