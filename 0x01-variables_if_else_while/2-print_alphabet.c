@@ -9,8 +9,9 @@
 int main(void)
 {
 	char ch = 'a';
-// Add a blank line here	
+	
 	while (ch <= 'z')
+
 	{
 		putchar(ch);
 		ch++;
