@@ -6,11 +6,11 @@
 */
 void print_numbers(void)
 {
-int ch = '0';
-while (ch <= '9')
-{
-_putchar(ch);
-ch++;
+int sh = 0;
+do {
+_putchar(sh + 48);
+sh++;
 }
+while (sh >= 0 && sh <= 9)
 _putchar('\n');
 }
