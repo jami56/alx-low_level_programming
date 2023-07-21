@@ -8,7 +8,7 @@ void print_numbers(void)
 {
 int sh = 0;
 do {
-_putchar(sh + 48);
+_putchar(sh + '0');
 sh++;
 }
 while (sh >= 0 && sh <= 9)
