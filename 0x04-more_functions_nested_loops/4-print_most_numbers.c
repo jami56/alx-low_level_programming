@@ -4,12 +4,11 @@
 */
 void print_most_numbers(void)
 {
-int num;
-while (num <= 9)
+char num;
+for (num = '0'; num <= '9'; num++)
 {
-if (num != 2 && num != 4)
-_putchar(num + '0');
-num++;
+if (!(num == '2' || num == '4'))
+_putchar(num);
 }
 _putchar('\n');
 }
